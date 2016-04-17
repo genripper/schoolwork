@@ -1,0 +1,54 @@
+.title {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold
+}
+
+.button {
+	width: 150px;
+	height: 50px;
+	font-size: 20px;
+}
+
+.row {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 10px;	
+}
+
+.results {
+	background-color: #d9d9d9;
+}
+
+.table-responsive {
+	color: black;
+	border: solid 1px  #ffffff;
+	text-align: left;
+	display: none;
+}
+
+.table td {
+	border: solid 1px #ffffff;
+}
+
+.table th {
+	background-color: #b3b3b3;
+	border: solid 1px #ffffff;
+}
+
+.tableCaption {
+	color: black;
+	font-size: 25px;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+body {
+	background-color: #cce0ff;
+}

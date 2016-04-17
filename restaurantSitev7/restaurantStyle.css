@@ -1,0 +1,119 @@
+.name {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.nav {
+	padding: 5px;
+	width: 25%;
+	font-family: 'Orbitron', sans-serif;
+	color: black;
+}
+
+.footer {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer td {
+	text-align: center;
+	padding: 10px;
+}
+
+.description {
+	border: solid 1px;
+	background: white;
+	padding: 10px;
+}
+
+.menu {
+	width: 90%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: #cceeff;
+}
+
+.items {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.restaurantName {
+	text-align: center;
+}	
+		
+.text {
+	font-weight: bold;	
+}
+
+.textBox {
+	height: 150px;
+	vertical-align: top;
+	text-align: right;
+	font-weight: bold;
+}
+
+.submitButton {
+	text-align: center;
+}
+
+.mainBack {
+	background-color: white;
+}
+
+.beverages {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menuItems .row {
+	text-align: center;
+	padding: 20px;
+	line-height: 1.8;
+}
+
+.footer {
+	text-align: center;
+	padding: 20px;
+}
+
+.jumbotron {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+	color: white;
+	background-color: black;
+}
+
+.nav-pills a {
+	color: black;
+}
+
+.img-responsive {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form .row {
+	margin-bottom: 3px;
+	margin-top: 3px;
+	padding: 0px;
+	text-align: center;	
+}
+
+.carousel-inner {
+	font-family: 'Orbitron', sans-serif;
+	
+}
+
+.carouselText {
+	text-align: center;
+}

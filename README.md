@@ -1,2 +1,2 @@
 # schoolwork
-Work completed in school
+Work comple

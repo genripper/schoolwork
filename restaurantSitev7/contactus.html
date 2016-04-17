@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Contact Us</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="restaurantStyle.css" rel="stylesheet" type="text/css" />
+		<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+<!-- Header -->
+	<div class="container-fluid">
+		<div class="jumbotron">
+			<img src="images/cog.png" alt="imperial cog" style="height:97px; width:100px;" class="img-responsive"><h1 class="name">The DeathStar Cantina</h1>
+			<p class="name">New Location coming soon.</p>
+		</div>
+		<noscript>This site is best viewed with JavaScript enabled.</noscript>
+		<!-- Carousel -->
+		<div id="carousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel" data-slide-to="1"></li>
+				<li data-target="#carousel" data-slide-to="2"></li>
+			</ol>
+		 
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<p class="carouselText">We're opening a new location</p>
+				</div>
+				<div class="item">
+					<p class="carouselText">We're rolling out our seasonal menu, with special options for this season.</p>
+				</div>
+				<div class="item">
+					<p class="carouselText">The Drink of the Month is SG Special Brew.</p>
+				</div>
+			</div>
+		 
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+		<!-- Carousel -->
+		<hr>
+		<ul class="nav nav-pills">
+			<li><a href="home.html"><span class="glyphicon glyphicon-home"></span></a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li class="active"><a href="contactus.html">Contact Us</a></li>
+		</ul>
+	</div>
+<!-- Header -->
+<!-- Body -->
+		<hr>
+		<div class="container">
+			<div class="col-md-4"></div>
+			<div class="col-md-4 form">
+				<form id="form" name="form" method="POST">
+				<div class="row">
+					<div class="col-md-6 text">Name:</div>
+					<div class="col-md-6 input"><input id="name" type="text" name="Name"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 text">Email:</div>
+					<div class="col-md-6 input"><input id="email" type="text" name="Email"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 text">Phone:</div>
+					<div class="col-md-6 input"><input  id="phone" type="text" name="Phone"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 text">Reason for Inquiry:</div>
+					<div class="col-md-6 input"><select id="reason" name="reasons"><option value="Catering">Catering</option><option value="privateParty">Private Party</option><option value="Feedback">Feedback</option><option value="Other">Other</option></select></div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 text">Additional Inquiry:</div>
+					<div class="col-md-6 input"><textarea  id="addl" name="Addlinquiry" rows="10" cols="30"></textarea></div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 text">Have you been to the restaurant?</div>
+					<div class="col-md-6 input"><input type="radio" name="answer" value="no" checked> No <input type="radio" name="answer" value="yes"> Yes </div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 text">Best days to contact you?</div>
+					<div class="col-md-6 input"><input type="checkbox" name="weekday" value="monday"> M <input type="checkbox" name="weekday" value="tuesday"> T <input type="checkbox" name="weekday" value="wednesday"> W <input type="checkbox" name="weekday" value="thursday"> Th <input type="checkbox" name="weekday" value="friday"> F</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12"><input id="button" type="button" value="Send Request" onClick="check();" ></div>
+				</div>
+			<div class="col-md-4"></div>
+				</form>
+			</div>
+			</div>
+		<hr>
+<!-- Header -->
+<!-- Footer -->
+		<div class="footer">
+			<div class="col-md-12">
+				<div>101 Mission Blvd. San Diego, CA 80182</div>
+				<div>303-555-7628</div>
+			</div>
+<!-- Footer -->
+		</div>
+	<script type="text/javascript" src="contact.js"></script>
+	</body>
+</html>
